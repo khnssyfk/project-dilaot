@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>diLaot</title>
+</head>
+<body>
+    <header>
+            <div class="header-logo"> 
+                <a href="#beranda">diLaot</a>
+            </div>
+            <div class="header-list">
+                <a href="#tentangkami">Tentang Kami</a>
+                <div class="dropdown">
+                    <button onclick="show_hide()" class="drop-btn">
+                    Kegiatan ▾
+                    </button>
+                    <div class="drop-content">
+                        <a href="#">Kegiatan 1</a>
+                        <a href="#">Kegiatan 2</a>
+                        <a href="#">Kegiatan 3</a>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <article id="beranda">
+                <h2>Yuk, Kenalan Dengan diLaot! </h2>
+                <img src="assets/images/beranda.jpg" alt="">
+                <p>diLaot merupakan kumpulan pemuda pemudi Indonesia 
+                    yang peduli terhadap lautan di Indonesia.</p>
+            </article>
+            <article id="tentangkami">
+                <h2>Tentang Kami</h2>
+                <img src="assets/images/tentangkami.jpg" alt="">
+                <p>diLaot adalah sebuah komunitas pecinta lingkungan, 
+                    yang terdiri dari pemuda pemudi yang memiliki 
+                    kekhawatiran terhadap lingkungan, terutama
+                     kepada lautan. Indonesia merupakan 
+                     salah satu negara yang memiliki banyak lautan, kita 
+                     sebagai pemuda pemudi Indonesia harus memiliki rasa 
+                     peduli terhadap lautan kita.</p>
+            </article>
+        </div>
+          <aside>
+               <article id="profile">
+                   <h2>Pendiri diLaot</h2>
+                   <div class="container">
+                       <div class="card_wrapper">
+                           <div class="card_item">
+                               <div class="card_inner ">
+                                   <div class="card_header">
+                                    <img src="assets/images/KhansaSyafikaSari_foto.jpg" alt="">
+                                   </div>
+                                   <div class="card_content">
+                                       <div class="card_text">
+                                        <h2>Khansa Syafika Sari</h2>
+                                        <p>Mahasiswi Teknik Informatika Untan</p>
+                                       </div>
+                                   </div>
+                                   <div class="btn">
+                                       <button>Selanjutnya</button>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>              
+               </article>
+            </aside>            
+    </main>
+    <footer>
+        <p>diLaot Website &#169; 2021, diLaot</p>
+    </footer>
+    <script src="dropdown.js"></script>
+</body>
+</html>
